@@ -6,5 +6,6 @@ pipeline {
             steps {
                 python CSV_using_Request.py
             }
+        }
     }
 }
