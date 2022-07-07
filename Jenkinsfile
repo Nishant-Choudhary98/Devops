@@ -1,11 +1,10 @@
 pipeline {
-    agent any
-
+    agent { docker { image 'python:3.9.13' } }
     stages {
-        stage('Build') {
+        stage('build') {
             steps {
-                python CSV_using_Request.py
+                powershell 'python CSV_using_Request.py'
             }
         }
-    }
-}
+     }
+   }
