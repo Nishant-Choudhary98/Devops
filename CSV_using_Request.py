@@ -1,7 +1,7 @@
 import requests, json, csv
 from requests.auth import HTTPBasicAuth
 
-file = open(r"C:\Users\nisha\Desktop\py4e\Request\Devops\Sonarqube_Projects.csv",'w', newline='')
+file = open("Sonarqube_Projects.csv",'w', newline='')
 
 url = "http://localhost:9000/api/projects/search"
 
