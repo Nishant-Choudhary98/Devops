@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python3 CSV_using_Request.py'
+                bat 'python3 CSV_using_Request.py'
             }
         }
      }
