@@ -19,7 +19,7 @@ for i in range(len(responsedata['components'])):
 file.close()
 
 
-'''
+
 #Read file
 file = open("Sonarqube_Projects.csv",'r', newline='')
 
@@ -28,4 +28,3 @@ for line in reader:
     print(line)
 
 file.close()
-'''
