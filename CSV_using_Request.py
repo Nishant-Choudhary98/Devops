@@ -21,7 +21,7 @@ file.close()
 
 '''
 #Read file
-file = open("C:/Users/nisha/Desktop/py4e/Request/Devops/Sonarqube_Projects.csv",'r', newline='')
+file = open("Sonarqube_Projects.csv",'r', newline='')
 
 reader = csv.reader(file)  #Reader function in CSV
 for line in reader:
